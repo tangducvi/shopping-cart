@@ -1,0 +1,52 @@
+{
+    "products"  : [
+        {
+            "id": 1,
+            "image" : "/images/dress1.jpg",
+            "title"  : "Navy shawl lapel Tuxedos ",
+            "des" : "Buy best formal suits for men online in India at Blackberrys. Check out the latest black suit, grey suit",
+            "size" : ["S", "L", "XXL"],
+            "price" : 29.9
+        },
+        {
+            "id": 2,
+            "image" : "/images/dress2.jpg",
+            "title"  : "Navy shawl lapel Tuxedos ",
+            "des" : "Buy best formal suits for men online in India at Blackberrys. Check out the latest black suit, grey suit",
+            "size" : ["M", "L", "XL"],
+            "price" : 12
+        },
+        {
+            "id": 3,
+            "image" : "/images/dress3.jpg",
+            "title"  : "Navy shawl lapel Tuxedos ",
+            "des" : "Buy best formal suits for men online in India at Blackberrys. Check out the latest black suit, grey suit",
+            "size" : ["S", "M", "XXL"],
+            "price" : 34
+        },
+        {
+            "id": 4,
+            "image" : "/images/dress4.jpg",
+            "title"  : "Navy shawl lapel Tuxedos ",
+            "des" : "Buy best formal suits for men online in India at Blackberrys. Check out the latest black suit, grey suit",
+            "size" : ["S", "L", "XL"],
+            "price" : 7
+        },
+        {
+            "id": 5,
+            "image" : "/images/dress5.jpg",
+            "title"  : "Navy shawl lapel Tuxedos ",
+            "des" : "Buy best formal suits for men online in India at Blackberrys. Check out the latest black suit, grey suit",
+            "size" : ["L", "XXL"],
+            "price" : 78
+        },
+        {
+            "id": 6,
+            "image" : "/images/dress6.jpg",
+            "title"  : "Navy shawl lapel Tuxedos ",
+            "des" : "Buy best formal suits for men online in India at Blackberrys. Check out the latest black suit, grey suit",
+            "size" : ["L", "XL"],
+            "price" : 60
+        }
+    ]
+}

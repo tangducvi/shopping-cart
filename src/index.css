@@ -1,0 +1,287 @@
+
+
+body, html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body, #root{
+  height: 100vh;
+  margin: 0;
+}
+
+body, input, select, textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+a:hover {
+  color: #ff8800;
+}
+
+.navbar {
+  background-color: #ff8882;
+  height: 70px;
+}
+.nav-link, .navbar-brand {
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+.nav-link:hover, .navbar-brand:hover {
+  color: #194350;
+}
+
+/* header {
+  grid-area: header;
+  background-color: #203040;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  padding: 0.5rem
+} */
+
+/* header a {
+  color: #fff;
+  text-decoration: none;
+} */
+.me-2 {
+  margin-right: .5rem!important;
+  height: 40px;
+  width: 250px;
+  font-size: 1.5rem;
+}
+
+.btn-outline-success {
+  width: 70px;
+  font-size: 1.5rem;
+}
+
+main {
+  grid-area: main;
+  margin-bottom: 30px;
+}
+footer {
+  grid-area: footer;
+  background-color: #ff8882;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: auto;
+  width: 1400px;
+  display: flex;
+
+  margin-top: 50px;
+}
+.main {
+  flex : 3 60rem;
+}
+
+.sidebar {
+  flex: 1 20rem;
+}
+
+/* ******************* Product ******************** */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.products li {
+  flex: 0 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product img {
+  max-width: 37rem;
+  max-height: 37rem;
+}
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price div, .product-price button {
+  flex: 1;
+}
+
+
+.button {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #f7d9d9;
+}
+
+.button.primary:hover {
+  background-color: #f7d9d9;
+}
+.button.primary {
+  background-color: #ff8882;
+  outline: none;
+}
+
+/* ******************* Filter ******************** */
+.filter {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+  justify-content: space-around;
+}
+
+.filter div {
+  flex: 1;
+}
+
+/* ******************* Cart ******************** */
+
+.cart {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+
+.react-reveal {
+  width: 100%;
+}
+
+.cart-header {
+  border-bottom: 0.1rem #c0c0c0 solid;;
+}
+
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-items img {
+  width: 5rem;
+}
+
+.cart-items li {
+  display: flex;
+}
+
+.cart-items li div {
+  padding: 0.5rem;
+}
+
+.cart-items li div:last-child {
+  flex: 1;
+}
+
+.right {
+  text-align: right;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.total > div, .total > button {
+  flex: 1;
+}
+
+.button.primary {
+  text-align: center;
+}
+
+/* ******************* Checkout form ******************** */
+.form {
+  width: 100%;
+}
+.form-container {
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+input {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  outline: none;;
+}
+
+/* ******************* product detail ******************** */
+.p-detail {
+  width: 700px;
+  height: 700px;
+}
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
+  height: 700px;
+}
+
+.product-details img {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.product-details-des {
+  flex: 1 1;
+  margin: 1rem;
+}
+.product a p {
+  padding-top: 10px;
+  color: black;
+  text-decoration: none;
+}
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 100;
+}
